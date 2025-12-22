@@ -1,6 +1,6 @@
 # Laboratory Management System
 
-Hệ thống quản lý phòng thí nghiệm toàn diện với giao diện web hiện đại và API backend mạnh mẽ.
+Hệ thống quản lý phòng thí nghiệm 
 
 ## Tác giả
 ### Frontend (FE)
@@ -86,16 +86,6 @@ npm run dev
 ```
 
 ### 4. Truy cập ứng dụng
-
-#### 🌐 Live Demo
-- **Frontend (Production)**: [https://laboratory-management-phi.vercel.app/](https://laboratory-management-phi.vercel.app/)
-- **Backend API (Production)**: [https://deloy-project.vercel.app/](https://deloy-project.vercel.app/)
-
-#### 💻 Local Development
-- **Frontend (Local)**: http://localhost:5173
-- **Backend API (Local)**: http://localhost:5000
-- **API Documentation**: http://localhost:5000/api-docs
-
 ## Cấu trúc dự án
 
 ```
@@ -178,13 +168,6 @@ laboratory-management/
 - `GET /api/instruments` - Lấy danh sách thiết bị
 - `POST /api/instruments` - Thêm thiết bị mới
 
-### API Status
-- `GET /` - Kiểm tra trạng thái API
-  - **Production**: [https://deloy-project.vercel.app/](https://deloy-project.vercel.app/)
-  - **Response**: `{"message":"🚀 Laboratory Management API is running!","version":"1.0.1","timestamp":"..."}`
-
-## Build và Deploy
-
 ### Frontend
 
 #### Local Development
@@ -194,38 +177,15 @@ npm run dev
 # Development server
 ```
 
-#### Production Build
-```bash
-cd FE
-npm run build
-# Output: dist/ folder
-```
-
 React + Vite
 
-#### Deploy Frontend to Vercel
-```bash
-cd FE
-vercel --prod
-# Hoặc push code lên GitHub để auto-deploy
-```
 
-### Backend
 
 #### Local Development
 ```bash
 cd BE
 npm start
 # Production mode
-```
-
-
-
-#### Deploy Backend to Vercel
-```bash
-cd BE
-vercel --prod
-# Hoặc push code lên GitHub để auto-deploy
 ```
 
 ## Môi trường phát triển
@@ -235,13 +195,6 @@ vercel --prod
 - npm >= 8.0.0
 - MongoDB >= 4.0
 
-## Đóng góp
 
-1. Fork repository
-2. Tạo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Tạo Pull Request
----
 
 
