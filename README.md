@@ -1,23 +1,5 @@
 # Laboratory Management System
 
-Hệ thống quản lý phòng thí nghiệm 
-
-## Tác giả
-### Frontend (FE)
--Võ Minh Chánh
-- Trần Quốc Lâm 
-- Nguyễn Đàm Chấn Đức
-- Lê Quốc Huy 
-### Backend (BE)
-- Lê Hữu Khoa
-- Nguyễn Thế Văn
-- Hồ Minh Nghĩa
-
-## Tổng quan dự án
-
-Dự án bao gồm 2 phần chính:
-- **Frontend (FE)**: Giao diện người dùng được xây dựng với React + TypeScript
-- **Backend (BE)**: API server được xây dựng với Node.js + Express
 
 ## Công nghệ sử dụng
 
